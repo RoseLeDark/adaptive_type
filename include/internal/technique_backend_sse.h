@@ -11,7 +11,7 @@
  * @date 2025-06-09
  * @version 1.0
  * 
- * @copyright SPDX-License-Identifier: LGPL-2.1-or-later
+ * @copyright SPDX-License-Identifier: LGPL-2.1-or-later 
  */
 #ifndef ADAPTIVE_BACKEND_SSE3_H
 #define ADAPTIVE_BACKEND_SSE3_H

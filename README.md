@@ -28,11 +28,15 @@ To use `adaptive_type` in your project, include the library in your PlatformIO p
    git clone https://github.com/RoseLeDark/adaptive_type.git
    ```
 2. Add the library to your PlatformIO project:
-   ```json
-   "lib_deps": [
-       "adaptive_type"
-   ]
-   ```
+   ```ini
+   [platformio]
+    default_envs = native
+
+    [env:native]
+    platform = linux_x86_64
+    build_flags = "-mavx2"
+    lib_deps = pba3h11aso/adaptive_type@0.2.3
+    ```
 
 ## Usage
 
