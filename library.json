@@ -1,0 +1,19 @@
+{
+    "name": "adaptive_type",
+    "version": "0.2.3",
+    "description": "adaptive C++ types that automatically choose optimal SIMD/GPU implementatios - from scalar to opencl with a single class.",
+    "keywords": "avx, sse, neo, opencl, types, simd",
+    "repository": "",
+    "authors":
+    [
+      {
+        "name": "Amber-Sophia Schröck",
+        "email": "pba3h11aso@schattenfeld.de",
+        "url": "https://www.schattenfeld.de/"
+      }
+    ],
+    "license": "LGPL",
+    "homepage": "schattenfeld.de",
+    "frameworks": "*",
+    "platforms": "native, linux_x86_64, linux_x86"
+  }
